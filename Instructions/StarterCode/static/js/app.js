@@ -134,10 +134,7 @@ function optionChanged(selectValue){
             sampleMetadata.append("p").text(`${key}: ${value}`);
         })
 
-        var gaugeValue = filteredMetaData[0].wfreq;
-        
-        Plotly.restyle('gauge', "value", [gaugeValue]);
-
+    
     });
 }
 init();
